@@ -104,6 +104,10 @@ public class TwitterUserActivity extends AppCompatActivity implements AdapterVie
                     }
                 });
                 break;
+
+            case R.id.send_tweet:
+                startActivity(new Intent(TwitterUserActivity.this, SendTweet.class));
+                break;
         }
 
         return super.onOptionsItemSelected(item);
