@@ -62,6 +62,7 @@ public class SendTweet extends AppCompatActivity {
         });
     }
 
+    //View other's tweet
     public void viewOthersTweet(View view) {
         final ArrayList<HashMap<String,String>> tweetList=new ArrayList<>();
         final SimpleAdapter tweetAdapter=new SimpleAdapter(SendTweet.this,
